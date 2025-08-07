@@ -1,12 +1,10 @@
 # Calculator App
 
-A simple calculator application with a Python Flask backend and two frontends:
-- A desktop GUI using Tkinter
-- A web app using Streamlit
+A simple calculator application with a Python Flask backend and a modern web frontend using Streamlit.
 
 ## Features
 - Basic arithmetic operations: Add, Subtract, Multiply, Divide
-- Web interface (Streamlit) and desktop GUI (Tkinter)
+- Web interface (Streamlit)
 - Backend API (Flask) for calculations
 
 ## Requirements
@@ -36,20 +34,29 @@ streamlit run calculator_streamlit.py
 ```
 Visit [http://localhost:8501](http://localhost:8501) in your browser.
 
-### 3. (Optional) Run the Desktop GUI
-```sh
-python calculator_gui.py
-```
-
 ## Project Structure
 - `backend.py` - Flask backend API
-- `calculator_gui.py` - Tkinter desktop GUI
 - `calculator_streamlit.py` - Streamlit web frontend
 - `requirements.txt` - Python dependencies
 - `README.md` - Project documentation
+
+## Optional: Desktop GUI (Legacy)
+A Tkinter-based desktop GUI (`calculator_gui.py`) is also included for reference, but the main interface is the Streamlit web app.
+
+To run the desktop GUI (optional):
+```sh
+python calculator_gui.py
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [MIT](LICENSE)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](LICENSE)
+
